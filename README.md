@@ -178,5 +178,19 @@ npm start
 
 The server will be available at http://localhost:4000 and you can test your projects with the Apollo Sandbox tool.
 
+### My tests :
+![image](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/80bad1c0-91b5-4d0f-bd1a-cc09642fa0d1)
+
+![image](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/9003f85e-5d74-41ba-af2d-9bad135b0bfe)
+
+![image](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/f6f719ef-228a-4ba4-a133-928e7cfaf78c)
+
+![addReview](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/85ec8641-218a-4210-a115-004fb5180646)
+
+![deleteMutation](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/700cf817-4aa0-4e2f-a800-26eb952fc47f)
+
+![updateRecipe](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/5f2d87f5-55c4-47f0-9cab-74a0498952f7)
+
+![updateReview](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/32a340df-dcb3-4030-a98d-8c3a0f13bc16)
 
 Feel free to write your own solutions or to contribute additional questions, solutions, or improvements to existing content.
