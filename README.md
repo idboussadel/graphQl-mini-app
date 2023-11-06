@@ -14,7 +14,7 @@ This mini project is just for practicing your graphql skills.
 
 3. [Getting Started](#getting-started)
    - [Installation](#installation)
-   - [My Tests](#my-tests)
+   - [My tests](#my-tests)
 
 ## Models
 
