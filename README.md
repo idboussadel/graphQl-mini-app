@@ -14,8 +14,7 @@ This mini project is just for practicing your graphql skills.
 
 3. [Getting Started](#getting-started)
    - [Installation](#installation)
-   - [Database Setup](#database-setup)
-   - [Run the Server](#run-the-server)
+   - [My tests](#My-tests)
 
 ## Models
 
@@ -76,7 +75,7 @@ Resolvers define the logic for handling GraphQL operations. Key resolvers includ
 
 1. Clone the repository:
 ```bash
-    git clone https://github.com/your-username/your-recipe-app.git
+    git clone https://github.com/Devai-coding/graphQl-mini-app
     cd your-recipe-app
     npm install
 ```
