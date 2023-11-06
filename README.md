@@ -177,7 +177,7 @@ npm start
 
 The server will be available at http://localhost:4000 and you can test your projects with the Apollo Sandbox tool.
 
-### My tests :
+### My tests
 ![image](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/80bad1c0-91b5-4d0f-bd1a-cc09642fa0d1)
 
 ![image](https://github.com/Devai-coding/graphQl-mini-app/assets/113947156/9003f85e-5d74-41ba-af2d-9bad135b0bfe)
