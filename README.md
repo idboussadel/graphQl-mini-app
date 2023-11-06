@@ -27,7 +27,7 @@ The `Recipe` model represents a recipe with the following properties:
 - `description` (String): Description of the recipe.
 - `difficulty` (String): Difficulty level, with options ["Easy", "Medium", "Hard"] (default: "Medium").
 - `createdAt` (String): Timestamp when the recipe was created.
-- `reviews` (Array of Reviews): Array containing review references associated with the recipe.
+- `reviews` (Array of Review IDs): Array containing IDs of reviews associated with the recipe.
 
 ### Review Model
 
