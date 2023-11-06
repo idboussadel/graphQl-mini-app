@@ -1,7 +1,7 @@
 # GraphQL Recipe App
 
-This repository contains a simple GraphQL-based recipe app built with Node.js, Appolo and MongoDB. The app provides a GraphQL API for managing recipes and reviews.
-This mini project is the just for practise your graphql skills.
+This repository contains a simple GraphQL-based recipe app built with Node.js, Appolo, and MongoDB. The app provides a GraphQL API for managing recipes and reviews.
+This mini project is just for practicing your graphql skills.
 
 ## Table of Contents
 1. [Models](#models)
@@ -80,5 +80,103 @@ Resolvers define the logic for handling GraphQL operations. Key resolvers includ
     cd your-recipe-app
     npm install
 ```
+2. and here is an example to fill your MongoDB database  :
+Example MongoDB data for reviews:
+```bash
+[{
+  "_id": {
+    "$oid": "6548e4eeede863d219973b18"
+  },
+  "rating": 4,
+  "comment": "Great experience! The recipe was amazing."
+},
+{
+  "_id": {
+    "$oid": "6548e515ede863d219973b19"
+  },
+  "rating": 5,
+  "comment": "Nice recipe!!!"
+},
+{
+  "_id": {
+    "$oid": "6548eac7ede863d219973b23"
+  },
+  "rating": 4,
+  "comment": "Not terrible after All!!!"
+},
+{
+  "_id": {
+    "$oid": "6548f4cdff496739bc03faf5"
+  },
+  "rating": 5,
+  "comment": "Perfectoo !!!",
+  "__v": 0
+}]
+```
+Example MongoDB data for recipes:
+```bash
+   [{
+  "_id": {
+    "$oid": "6548e607ede863d219973b1e"
+  },
+  "title": "Delicious Pasta Recipe",
+  "description": "A mouth-watering pasta dish that everyone loves!",
+  "difficulty": "Medium",
+  "createdAt": "2023-11-06T12:00:00Z",
+  "reviews": [
+    {
+      "$oid": "6548e515ede863d219973b19"
+    },
+    {
+      "$oid": "6548e4eeede863d219973b18"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548eaeaede863d219973b25"
+  },
+  "title": "Delicious Pasta Recipe",
+  "description": "A mouth-watering pasta dish that everyone loves!",
+  "difficulty": "Medium",
+  "createdAt": "2023-11-06T12:00:00Z",
+  "reviews": [
+    {
+      "$oid": "6548ea9fede863d219973b22"
+    },
+    {
+      "$oid": "6548eac7ede863d219973b23"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548f3b94cfed4d0f9f4f081"
+  },
+  "title": "updated Recipe",
+  "description": "This is the full desc of this recipe",
+  "difficulty": "Hard",
+  "reviews": [
+    {
+      "$oid": "6548f4cdff496739bc03faf5"
+    },
+    {
+      "$oid": "6548eac7ede863d219973b23"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-06T14:10:01.213Z"
+  },
+  "__v": 0
+}]
+```
+3. Run the Server
+Start the GraphQL server:
+```sh
+npm start
+```
+
+The server will be available at http://localhost:4000 and you can test your projects with the Apollo Sandbox tool.
 
 
+Feel free to write your own solutions or to contribute additional questions, solutions, or improvements to existing content.
